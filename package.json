@@ -1,0 +1,27 @@
+{
+    "name": "appium_nodejs_demo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "wdio"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@wdio/cli": "^8.22.1",
+        "@wdio/local-runner": "^8.22.1",
+        "@wdio/mocha-framework": "^8.22.0",
+        "webdriverio": "^8.22.1"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.23.0",
+        "@babel/core": "^7.23.2",
+        "@babel/preset-env": "^7.23.2",
+        "@babel/register": "^7.22.15",
+        "chai": "^4.3.10",
+        "jasmine": "^5.1.0",
+        "mocha": "^10.2.0",
+        "wd": "^1.14.0"
+    }
+}
