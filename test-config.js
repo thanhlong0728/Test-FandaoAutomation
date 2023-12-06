@@ -21,15 +21,15 @@ exports.config = {
       'appium:appActivity': 'com.fundao.MainActivity',
       'appium:udid': 'emulator-5554',
       'appium:automationName': 'uiautomator2',
-      platformName: 'Android',
+      platformName: 'Android'
 
       //Setup IOS
-      'appium:platformName': 'iOS',
-      'appium:platformVersion': '17.0',
-      'appium:deviceName': 'iPhone 15 Pro Max',
-      'appium:appPackage': 'com.fundao',
-      'appium:appActivity': 'com.fundao.MainActivity',
-      'appium:automationName': 'XCUITest'
+      // 'appium:platformName': 'iOS',
+      // 'appium:platformVersion': '17.0',
+      // 'appium:deviceName': 'iPhone 15 Pro Max',
+      // 'appium:appPackage': 'com.fundao',
+      // 'appium:appActivity': 'com.fundao.MainActivity',
+      // 'appium:automationName': 'XCUITest'
     }
   ]
 }

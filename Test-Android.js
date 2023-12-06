@@ -1,6 +1,6 @@
 describe('Learning WebdriverIO API', function () {
   after(async function () {
-    await browser.pause(5000)
+    await browser.pause(10000)
   })
 
   it('should be login case 1 successfully', async function () {
